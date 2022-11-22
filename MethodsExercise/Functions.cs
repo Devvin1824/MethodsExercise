@@ -20,7 +20,21 @@ namespace MethodsExercise
             return num3 * num4;
         }
 
+        public static int Subtract(int num1, int num2)
+        {
+            return num1 - num2;
+        }
         
+        public static int Divide(int num1, int num2)
+        {
+            return num1 / num2;
+        }
+
+        public static int Modulus(int num1, int num2)
+        {
+            return num1 % num2;
+        }
+
         public static int AddChallenge(params int[] list)
         {
             int sum = 0;
@@ -32,5 +46,5 @@ namespace MethodsExercise
             
         }
     }
-
+    
 }

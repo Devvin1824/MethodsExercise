@@ -20,12 +20,22 @@
 
             int sum;
             int product;
+            int answer;
+            int quotient;
+            int remainder;
 
             sum = Functions.Add(2, 4);
             product = Functions.Multiply(10, 2);
+            answer = Functions.Subtract(8, 5);
+            quotient = Functions.Divide(20, 10);
+            remainder = Functions.Modulus(20, 7);
+
             Console.WriteLine($"The sum is {sum}.");
             Console.WriteLine($"The product is {product}.");
-            
+            Console.WriteLine($"The answer is {answer}.");
+            Console.WriteLine($"The quotient is {quotient}.");
+            Console.WriteLine($"The remainder is {remainder}.");
+
             Console.WriteLine(Functions.AddChallenge(3, 6, 7));
            
         }
